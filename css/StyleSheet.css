@@ -35,6 +35,14 @@ ul#horizontal-list li {
     display: inline;
 }
 
+a {
+    text-align: left;
+    font: Regular 28px/36px BentonSans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
 #video {
     padding-left: 830px;
     padding-top: 152px;
