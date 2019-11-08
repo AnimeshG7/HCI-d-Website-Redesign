@@ -100,7 +100,7 @@ a {
 #container1 {
     top: 118px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 961px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -109,7 +109,7 @@ a {
 #container2 {
     top: 1077px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 968px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -118,7 +118,7 @@ a {
 #container3 {
     top: 2045px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 598px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -127,7 +127,7 @@ a {
 #container4 {
     top: 2643px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 986px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -136,7 +136,7 @@ a {
 #container5 {
     top: 3629px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 820px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -145,7 +145,7 @@ a {
 #container6 {
     top: 4449px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 1179px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -154,7 +154,7 @@ a {
 #container7 {
     top: 5628px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 773px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -163,7 +163,7 @@ a {
 #container8 {
     top: 6401px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 723px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -172,7 +172,7 @@ a {
 #container9 {
     top: 7129px;
     left: 0px;
-    width: 1920px;
+    /* width: 1920px; */
     height: 1080px;
     background: #990000 0% 0% no-repeat padding-box;
     opacity: 1;
