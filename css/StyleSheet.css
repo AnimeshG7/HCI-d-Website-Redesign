@@ -43,14 +43,55 @@ a {
     opacity: 1;
 }
 
-#video {
+#subtitle1 {
+    top: 1227px;
+    left: 135px;
+    width: 621px;
+    height: 202px;
+    text-align: left;
+    font: Black 85px/90px BentonSans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.6;
+}
+
+#CohortCulture1 {
+    top: 2793px;
+    left: 140px;
+    width: 536px;
+    height: 335px;
+}
+
+#CohortCulture2 {
+    top: 2793px;
+    left: 692px;
+    width: 475px;
+    height: 335px;
+}
+
+#CohortCulture3 {
+    top: 3144px;
+    left: 140px;
+    width: 398px;
+    height: 335px;
+}
+
+#CohortCulture4 {
+    top: 3144px;
+    left: 554px;
+    width: 613px;
+    height: 335px;
+}
+
+
+/* #video {
     padding-left: 830px;
     padding-top: 152px;
     top: 1229px;
     left: 830px;
     width: 950px;
     height: 666px;
-}
+} */
 
 #container1 {
     top: 118px;

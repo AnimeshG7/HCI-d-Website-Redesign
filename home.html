@@ -2,15 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <meta charset="UTF-8">
+    <title>HCID</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
 
 <body>
     <header>
-        <nav id="primary" class="three">
+        <nav id="primary" class="navbar fixed-bottom">
             <!-------beginning of nav-->
             <ul id="horizontal-list">
                 <img src="asset/img/IU_Trident_Image.png" id="IuLogo">
@@ -29,31 +35,37 @@
         <!-------beginning of the wrapper-->
         <!-------container1-->
         <div class="container" , id="container1">
-            <div class="left, box">
-                <h>Welcome to IUB</h>
-                <h>HCI/d</h>
-            </div>
-            <div class="right box">
+            <div class="row">
+                <div class="col">
+                    <h id="title1">Welcome to IUB</h>
+                    <h id="title2">HCI/d</h>
+                </div>
+                <div class="col">
+                </div>
             </div>
         </div>
 
         <!-------container2-->
         <div class="container" , id="container2">
-            <div class="left box">
-                <h>What is HCI/d?</h>
-                <p>At Indiana University, we aim to transform individuals who will shape the future of design. Our unique program nested carefully between theoretical and practical skills of research and design creates graduates who go on to be design leaders
-                    of the next generation. The program is carefully curatedwith practical skills and academic foundations, which builds thoughtful individuals who prove to be leaders in design and who stand at the forefront of Human-computer Interaction.
-                    IU’s HCI/d program was the first in the U.S. to emphasize design as an equal partner to HCI. This original vision blends with current trends in technology, art and academic research to lay the groundwork for students to grow rapidly
-                    into sought after design leaders.</p>
-            </div>
-            <div class="right, box">
-                <iframe width="950px" height="666px" src="https://www.youtube.com"> </iframe>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h id="subtitle1">What is HCI/d?</h>
+                    <p>At Indiana University, we aim to transform individuals who will shape the future of design. Our unique program nested carefully between theoretical and practical skills of research and design creates graduates who go on to be design
+                        leaders of the next generation. The program is carefully curatedwith practical skills and academic foundations, which builds thoughtful individuals who prove to be leaders in design and who stand at the forefront of Human-computer
+                        Interaction. IU’s HCI/d program was the first in the U.S. to emphasize design as an equal partner to HCI. This original vision blends with current trends in technology, art and academic research to lay the groundwork for students
+                        to grow rapidly into sought after design leaders.</p>
+                </div>
+                <div class="col">
+                </div>
+                <div class="col-lg-7">
+                    <iframe id="video" width="950px" height="666px" src="https://www.youtube.com/embed/M2MFW2NrrYo"></iframe>
+                </div>
             </div>
         </div>
 
         <!-------container3-->
         <div class="container" , id="container3">
-            <div>
+            <div class="nav justify-content-center">
                 <h>AT A GLANCE</h>
                 <table>
                     <tr>
@@ -74,17 +86,22 @@
 
         <!-------container4-->
         <div class="container" , id="container4">
-            <div class="left box">
-                <img src="asset/img/CohortCulture1.png" id="CohortCulture1">
-                <img src="asset/img/CohortCulture2.png" id="CohortCulture2">
-                <img src="asset/img/CohortCulture3.png" id="CohortCulture3">
-                <img src="asset/img/CohortCulture4.png" id="CohortCulture4">
-            </div>
-            <div class="right, box">
-                <h>Cohort Culture</h>
-                <p>We carefully select students from various countries, backgrounds and cultures to form a multidisciplinary cohort which goes on to become a tightly knit community of designers. We take pride in our diverse group of students. Ideally, we
-                    construct a strong cohort that emerges out of the program with a well-rounded design education with a bedrock of HCI theory and technical skills. At IUB HCI/d, our students don’t compete with each other, they work together to make
-                    everyone stronger.</p>
+            <div class="row">
+                <div class="col">
+                    <img src="asset/img/placeholder.jpg" id="CohortCulture1">
+                    <img src="asset/img/placeholder.jpg" id="CohortCulture3">
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="asset/img/placeholder.jpg" id="CohortCulture2">
+                    <img src="asset/img/placeholder.jpg" id="CohortCulture4">
+                </div>
+                <div class="col">
+                    <h>Cohort Culture</h>
+                    <p>We carefully select students from various countries, backgrounds and cultures to form a multidisciplinary cohort which goes on to become a tightly knit community of designers. We take pride in our diverse group of students. Ideally,
+                        we construct a strong cohort that emerges out of the program with a well-rounded design education with a bedrock of HCI theory and technical skills. At IUB HCI/d, our students don’t compete with each other, they work together to
+                        make everyone stronger.</p>
+                </div>
             </div>
         </div>
 
@@ -209,33 +226,33 @@
                 <div class="left fourth">
                     <div class="upper">
                         <h>PROGRAM
-                            </h>
-                                <a href="url">Curriculum</a>
-                                <a href="url">Career Paths</a>
+                        </h>
+                        <a href="url">Curriculum</a>
+                        <a href="url">Career Paths</a>
                     </div>
                     <div class="lower">
                         <h>RESOURCES
-                            </h>
-                                <a href="url">FAQ</a>
-                                <a href="url">Career Services</a>
-                                <a href="url">Related Degrees</a>
+                        </h>
+                        <a href="url">FAQ</a>
+                        <a href="url">Career Services</a>
+                        <a href="url">Related Degrees</a>
                     </div>
                 </div>
                 <div class="right fourth">
                     <div class="left fourth">
                         <div class="upper">
                             <h>PEOPLE
-                                </h>
-                                    <a href="url">Students</a>
-                                    <a href="url">Faculty</a>
+                            </h>
+                            <a href="url">Students</a>
+                            <a href="url">Faculty</a>
                         </div>
                         <div class="lower">
                             <h>ADMISSIONS
-                                </h>
-                                    <a href="url">Overview</a>
-                                    <a href="url">Tuition & Fees</a>
-                                    <a href="url">Scholarships</a>
-                                    <a href="url">International Office</a>
+                            </h>
+                            <a href="url">Overview</a>
+                            <a href="url">Tuition & Fees</a>
+                            <a href="url">Scholarships</a>
+                            <a href="url">International Office</a>
                         </div>
                     </div>
                 </div>
