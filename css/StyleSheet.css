@@ -208,6 +208,7 @@ a {
 
 .faculty {
     padding-left: 140px;
+    padding-right: 140px;
 }
 
 .faculty #profileimg {
@@ -217,6 +218,27 @@ a {
 
 .faculty .title h2 {
     padding-top: 220px;
+}
+
+.faculty h3 {
+    text-align: left;
+    font: Bold 48px/71px BentonSans;
+    letter-spacing: 0;
+    color: #191919;
+    opacity: 1;
+}
+
+.faculty #row1 {
+    padding-top: 150px;
+}
+
+.faculty #rows {
+    padding-top: 278px;
+}
+
+.faculty #lastrow {
+    padding-top: 278px;
+    padding-bottom: 130px;
 }
 
 
