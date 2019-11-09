@@ -1,28 +1,32 @@
 /**Overall**/
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body{
-	font-size: 100%;
-	margin: 0 auto;
-	width: 100%;
-	color: black;
+body {
+    font-size: 100%;
+    margin: 0 auto;
+    width: 100%;
+    color: black;
 }
 
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
-img{
-}
+
+
+/* img {} */
+
+
 /** end of overall**/
+
 
 /**Navigation **/
 
 nav {
-    background color: yellow;
     top: 0px;
     left: 0.294921875px;
     width: 100%;
@@ -30,6 +34,13 @@ nav {
     opacity: 1;
 }
 
+#IuLogo {
+    height: 75px;
+}
+
+#horizontal-list li {
+    display: inline;
+}
 
 a {
     text-align: left;
@@ -38,37 +49,35 @@ a {
     color: #FFFFFF;
     opacity: 1;
 }
-#primary{
-	height: 80px;
-	line-height: 80px;
-	width: 100%;
-	float: left;
+
+#primary {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    float: left;
 }
 
-#primary ul{
-}
 
-#primary li{
-	float:left;
+/* #primary ul {} */
+
+#primary li {
+    float: left;
     list-style-type: none;
     width: 13%;
     text-align: center;
 }
-#primary a{
-	text-decoration: none;
-	color: black;
-	font-size: 14px;
+
+#primary a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
-#subtitle1 {
-    top: 1227px;
-    left: 135px;
-    width: 621px;
-    height: 202px;
-    text-align: left;
-    font: Black 85px/90px BentonSans;
-    letter-spacing: 0;
-    color: #000000;
-    opacity: 0.6;
+
+
+/**End of Navigation **/
+
+.container {
+    max-width: 100%;
 }
 
 #CohortCulture1 {
@@ -192,4 +201,44 @@ a {
     height: 1080px;
     background: #990000 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+
+/* Adding CSS for the faculty page */
+
+.faculty {
+    padding-left: 140px;
+}
+
+.faculty #profileimg {
+    width: 290px;
+    height: 330px;
+}
+
+.faculty .title h2 {
+    padding-top: 220px;
+}
+
+
+/* Typography */
+
+h2 {
+    text-align: left;
+    font: Medium 42px/115px BentonSans;
+    letter-spacing: 0;
+    color: #191919;
+    opacity: 1;
+}
+
+h1 {
+    text-align: left;
+    font: Bold 85px/115px Benton Sans;
+    letter-spacing: 0;
+    color: #191919;
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    background-color: #990000;
 }
