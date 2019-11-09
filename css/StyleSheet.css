@@ -194,12 +194,12 @@ a {
     width: 950px;
    }
 #container6 .top{
-    text-height:464px;
+    height:464px;
     vertical-align: bottom;
     padding-bottom: 8px;
 }
 #container6 .bottom{
-    text-height:401px;
+    height:401px;
     vertical-align: top;
 }
 #container6 td{
