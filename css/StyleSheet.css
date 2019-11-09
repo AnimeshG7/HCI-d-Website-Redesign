@@ -129,6 +129,10 @@ a {
     height: 666px;
 } */
 
+
+
+/* home page*/
+
 #container1 {
     top: 118px;
     left: 0px;
@@ -137,8 +141,15 @@ a {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+#container1 .col{
+    top: 563px;
+    left: 140px;
+    width: 487px;
+    height: 67px;
+    }
 
 #container2 {
+    Padding-top:150px;
     top: 1077px;
     left: 0px;
     /* width: 1920px; */
@@ -148,6 +159,7 @@ a {
 }
 
 #container3 {
+    Padding-top:150px;
     top: 2045px;
     left: 0px;
     /* width: 1920px; */
@@ -157,6 +169,7 @@ a {
 }
 
 #container4 {
+    Padding-top:150px;
     top: 2643px;
     left: 0px;
     /* width: 1920px; */
@@ -166,6 +179,7 @@ a {
 }
 
 #container5 {
+    Padding-top:150px;
     top: 3629px;
     left: 0px;
     /* width: 1920px; */
@@ -175,6 +189,7 @@ a {
 }
 
 #container6 {
+    Padding-top:150px;
     top: 4449px;
     left: 0px;
     /* width: 1920px; */
@@ -182,8 +197,30 @@ a {
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.col table{
+    width: 950px;
+   }
+#container6 .top{
+    height:464px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+#container6 .bottom{
+    height:401px;
+    vertical-align: top;
+}
+#container6 td{
+    padding-top: 8px;
+}
+#studentwork1 #studentwork2{
+    vertical-align: text-bottom;
+}
+#studentwork3 #studentwork4{
+    vertical-align: text-top;
+}
 
 #container7 {
+    Padding-top:150px;
     top: 5628px;
     left: 0px;
     /* width: 1920px; */
@@ -193,6 +230,7 @@ a {
 }
 
 #container8 {
+    Padding-top:150px;
     top: 6401px;
     left: 0px;
     /* width: 1920px; */
@@ -202,6 +240,7 @@ a {
 }
 
 #container9 {
+    Padding-top:150px;
     top: 7129px;
     left: 0px;
     /* width: 1920px; */
@@ -209,6 +248,7 @@ a {
     background: #990000 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
 
 
 /* Adding CSS for the faculty page */
@@ -255,6 +295,11 @@ a {
     padding-top: 278px;
     padding-bottom: 130px;
 }
+
+
+
+
+
 
 
 /* Typography */
