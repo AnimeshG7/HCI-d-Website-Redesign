@@ -16,6 +16,17 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+.btn {
+    width: 227px;
+    height: 61px;
+    background-color: #990000 0% 0% no-repeat padding-box;
+    opacity: 0.68;
+}
+
+
+>>>>>>> 7dc84e5ad933e40bd5d37e860e425f3dadcd664c
 /* img {} */
 
 
@@ -394,12 +405,20 @@ a {
     opacity: 1;
 }
 
+.faculty p {
+    text-align: left;
+    font: Regular 22px/32px Benton Sans;
+    letter-spacing: 0;
+    color: #191919;
+    opacity: 1;
+}
+
 .faculty #row1 {
     padding-top: 150px;
 }
 
 .faculty #rows {
-    padding-top: 278px;
+    padding-top: 140px;
 }
 
 .faculty #lastrow {
@@ -425,6 +444,7 @@ h2 {
 
 h1 {
     text-align: left;
+    font-size: 85px;
     font: Bold 85px/115px Benton Sans;
     letter-spacing: 0;
     color: #191919;
