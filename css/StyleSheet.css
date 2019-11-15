@@ -648,6 +648,14 @@ table {
     opacity: 1;
 }
 
+.student #cohort2021 {
+    padding-top: 50px;
+}
+
+.student #potrait {
+    padding-top: 30px;
+}
+
 .project-tab {
     padding: 10%;
     margin-top: -8%;
@@ -694,6 +702,36 @@ table {
     text-decoration: none;
     color: #333;
     font-weight: 600;
+}
+
+img .zoom {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+    /* -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out; */
+}
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
 }
 
 
