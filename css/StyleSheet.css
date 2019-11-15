@@ -456,18 +456,19 @@ table {
 
 #container4 div:nth-child(2),
 #container5 div:nth-child(5) {
-    /*width: 24.875em;
-    padding-right: 9.375em;
-    padding-left: 6.25em;*/
+    width: 24.875em;
+    padding-left: 6.25em;
 }
+
 
 #container4 div:nth-child(2) p,
 #container5 div:nth-child(5) p {
     padding-top: 30px;
 }
 
-#container5 #col {
-    width: 153px;
+#container5 img{
+    width: 200px;
+    padding-right: 25px;
 }
 
 #container5 div:nth-child(5) p {
@@ -490,15 +491,6 @@ table {
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
-}
-.home button:nth-child(1){
-    height: 60px;
-    width: auto;
-    background-color:#FFFFFF;  
-    color: black;
-    padding:0 30px;
-    border: 1px #990000;
-    vertical-align: center;
 }
 
 #container5 {
@@ -1041,7 +1033,8 @@ footer h1 {
 }
 
 footer img {
-    height: 20px;
+    background-color: white;
+
 }
 
 footer .white {
