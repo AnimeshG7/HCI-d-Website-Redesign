@@ -596,12 +596,16 @@ table {
 }
 
 #container8 .row {
-    text-align: center;
-    align-content: center;
+    place-content: center;
+}
+#container8 img{
+    padding-right: 250px;
+}
+#container8 img:nth-child(3){
+    padding-right: 0;
 }
 
 #container8 h2 {
-    background-color: yellow;
     padding-bottom: 103px;
     text-align: center;
 }
