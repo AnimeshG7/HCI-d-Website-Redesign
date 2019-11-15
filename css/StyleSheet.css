@@ -485,6 +485,66 @@ a {
 
 .curriculum .container2 {
     padding-left: 270px;
+    padding-right: 554px;
+    padding-bottom: 250px;
+}
+
+.curriculum .container2 h2 {
+    padding-top: 150px;
+    text-align: left;
+    font: Bold 28px/30px BentonSans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+#description {
+    padding-top: 30px;
+    text-align: left;
+    font: Regular 22px/30px BentonSans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+.curriculum .container2 .dot {
+    height: 40px;
+    width: 40px;
+    background: #990000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.elective {
+    padding-top: 90px;
+}
+
+#instructor {
+    padding-top: 15px;
+}
+
+#firstsemester {
+    padding-top: 130px;
+}
+
+#secondsemester {
+    padding-top: 90px;
+}
+
+#thirdsemester {
+    padding-top: 90px;
+}
+
+#fourthsemester {
+    padding-top: 90px;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
 
 
