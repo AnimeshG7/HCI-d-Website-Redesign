@@ -33,16 +33,49 @@
 
     <div class="student" id="wrapper">
         <!-------beginning of the wrapper-->
+
         <!-------container1-->
-        <div>
-            <h>M.S. IN HCI/d</h>
-            <h>MEET THE COHORT</h>
-            <p>
-                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Class 2020</a>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Class 2021</button>
-            </p>
+        <div class="container" id="container1">
+            <div class="row">
+                <div class="col">
+                    <h class="display-3">M.S. IN HCI/d</h> <br>
+                    <h class="display-2">MEET THE COHORT</h>
+                </div>
+            </div>
         </div>
+        <!-------container1-->
+
+        <!-------container2-->
+        <section id="tabs" class="project-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Cohort 2021</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cohort 2020</a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <!-- Add gallery here -->
+                                <p>Cohort 2021</p>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <!-- Add gallery here -->
+                                <p>Cohort 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------container2-->
+
     </div>
+
+
 
 </body>
 
