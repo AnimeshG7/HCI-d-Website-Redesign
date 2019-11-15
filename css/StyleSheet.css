@@ -300,6 +300,7 @@ a {
     left: 140px;
     width: 536px;
     height: 335px;
+    object-fit: cover;
 }
 
 #CohortCulture2 {
@@ -308,6 +309,7 @@ a {
     left: 692px;
     width: 475px;
     height: 335px;
+    object-fit: cover;
 }
 
 #CohortCulture3 {
@@ -316,6 +318,7 @@ a {
     left: 140px;
     width: 398px;
     height: 335px;
+    object-fit: cover;
 }
 
 #CohortCulture4 {
@@ -324,6 +327,7 @@ a {
     left: 554px;
     width: 613px;
     height: 335px;
+    object-fit: cover;
 }
 
 
@@ -430,10 +434,12 @@ a {
 
 #studentwork1 #studentwork2 {
     vertical-align: text-bottom;
+    object-fit: cover;
 }
 
 #studentwork3 #studentwork4 {
     vertical-align: text-top;
+    object-fit: cover;
 }
 
 #container7 {
