@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229" height="459" viewBox="0 0 229 459">
+  <g id="Group_89" data-name="Group 89" transform="translate(-870 -3968)">
+    <g id="Rectangle_111" data-name="Rectangle 111" transform="translate(870 3981)" fill="#900" stroke="#900" stroke-width="1">
+      <rect width="229" height="446" stroke="none"/>
+      <rect x="0.5" y="0.5" width="228" height="445" fill="none"/>
+    </g>
+    <g id="Rectangle_112" data-name="Rectangle 112" transform="translate(870 3968)" fill="#fff" stroke="#900" stroke-width="1">
+      <rect width="216" height="444" stroke="none"/>
+      <rect x="0.5" y="0.5" width="215" height="443" fill="none"/>
+    </g>
+    <text id="_2nd_Year_Spring" data-name="2nd Year Spring" transform="translate(895 3994)" font-size="32" font-family="BentonSans-Black, Benton Sans" font-weight="800" opacity="0.601"><tspan x="0" y="30">2nd Year </tspan><tspan x="0" y="68">Spring</tspan></text>
+    <text id="Capstone_Elective_1_Elective_2_" data-name="Capstone
+
+Elective 1
+
+Elective 2
+" transform="translate(895 4116)" fill="#707070" font-size="20" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="19">Capstone</tspan><tspan x="0" y="43"></tspan><tspan x="0" y="67">Elective 1</tspan><tspan x="0" y="91"></tspan><tspan x="0" y="115">Elective 2</tspan><tspan x="0" y="139"></tspan></text>
+  </g>
+</svg>
