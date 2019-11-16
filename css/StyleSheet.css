@@ -363,8 +363,9 @@ a {
     left: 0px;
     height: 961px;
     opacity: 1;
-    background-image: url("asset/img/banner.jpg");
-    background-repeat: no-repeat, repeat;
+    background-image: url("../asset/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
