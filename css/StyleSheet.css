@@ -467,7 +467,7 @@ table {
 }
 
 #container5 img{
-    width: 200px;
+    width: 200px;x
     padding-right: 25px;
 }
 
@@ -493,15 +493,6 @@ table {
     opacity: 1;
 }
 
-.home button:nth-child(1) {
-    height: 60px;
-    width: auto;
-    background-color: #FFFFFF;
-    color: black;
-    padding: 0 30px;
-    border: 1px #990000;
-    vertical-align: center;
-}
 
 #container5 {
     padding-top: 150px;
