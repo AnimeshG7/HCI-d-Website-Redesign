@@ -492,6 +492,19 @@ table {
     color: #FFFFFF;
     opacity: 1;
 }
+<<<<<<< HEAD
+=======
+
+.home button:nth-child(1) {
+    height: 60px;
+    width: auto;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 0 30px;
+    border: 1px #990000;
+    vertical-align: center;
+}
+>>>>>>> 955e21d3f69a09501430f950320801afa99d7d4b
 
 #container5 {
     padding-top: 150px;
@@ -659,6 +672,24 @@ table {
 
 .student #potrait {
     padding-top: 30px;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .project-tab {
