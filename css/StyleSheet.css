@@ -460,13 +460,12 @@ table {
     padding-left: 6.25em;
 }
 
-
 #container4 div:nth-child(2) p,
 #container5 div:nth-child(5) p {
     padding-top: 30px;
 }
 
-#container5 img{
+#container5 img {
     width: 200px;
     padding-right: 25px;
 }
@@ -558,10 +557,12 @@ table {
 
 #studentwork1 #studentwork2 {
     vertical-align: text-bottom;
+    object-fit: cover;
 }
 
 #studentwork3 #studentwork4 {
     vertical-align: text-top;
+    object-fit: cover;
 }
 
 #container6 p,
@@ -600,10 +601,12 @@ table {
 #container8 .row {
     place-content: center;
 }
-#container8 img{
+
+#container8 img {
     padding-right: 250px;
 }
-#container8 img:nth-child(3){
+
+#container8 img:nth-child(3) {
     padding-right: 0;
 }
 
@@ -1062,7 +1065,6 @@ footer h1 {
 
 footer img {
     background-color: white;
-
 }
 
 footer .white {
