@@ -362,9 +362,10 @@ a {
     top: 118px;
     left: 0px;
     height: 961px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     background-image: url("asset/img/banner.jpg");
+    background-repeat: no-repeat, repeat;
+
 }
 
 #container1 .col {
