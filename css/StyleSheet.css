@@ -552,12 +552,14 @@ table {
     padding-top: 8px;
 }
 
-#studentwork1 #studentwork2 {
+#StudentWork1,
+#StudentWork2 {
     vertical-align: text-bottom;
     object-fit: cover;
 }
 
-#studentwork3 #studentwork4 {
+#StudentWork3,
+#StudentWork4 {
     vertical-align: text-top;
     object-fit: cover;
 }
