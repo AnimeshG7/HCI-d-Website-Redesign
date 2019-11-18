@@ -360,7 +360,7 @@ a {
     padding-right: 140px;
 }
 
-#container1 {
+.home #container1 {
     top: 118px;
     left: 0px;
     height: 961px;
@@ -557,7 +557,9 @@ table {
     vertical-align: text-bottom;
     object-fit: cover;
 }
-
+#StudentWork1{
+    position: top left;
+}
 #StudentWork3,
 #StudentWork4 {
     vertical-align: text-top;
