@@ -379,6 +379,20 @@ a {
 #container1 .display-1 {
     display: inline-block;
     padding-top: 14px;
+    text-align: left;
+    font: Bold 142px/115px Benton Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#container1 .display-3 {
+    display: inline-block;
+    text-align: left;
+    font: Medium 56px/115px BentonSans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 #container2 {
@@ -497,6 +511,7 @@ table {
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
+    border: none;
 }
 
 #container5 {
@@ -781,8 +796,6 @@ img .zoom {
     top: 118px;
     left: 0px;
     height: 600px;
-    background-image: url("../asset/img/16x9\ Large.png");
-    background-repeat: no-repeat;
 }
 
 .curriculum .container1 .col {
@@ -796,7 +809,7 @@ img .zoom {
     text-align: left;
     font: Medium 42px/115px BentonSans;
     letter-spacing: 0;
-    color: #FFFFFF;
+    color: #191919;
     opacity: 1;
 }
 
@@ -804,7 +817,7 @@ img .zoom {
     text-align: left;
     font: Bold 85px/115px Benton Sans;
     letter-spacing: 0;
-    color: #FFFFFF;
+    color: #191919;
     opacity: 1;
 }
 
@@ -820,6 +833,14 @@ img .zoom {
     font: Bold 28px/30px BentonSans;
     letter-spacing: 0;
     color: #000000;
+    opacity: 1;
+}
+
+.curriculum .container2 h4 {
+    text-align: left;
+    font: Regular 28px/34px BentonSans;
+    letter-spacing: 0;
+    color: #545454;
     opacity: 1;
 }
 
@@ -1081,6 +1102,15 @@ footer .white {
 
 footer button {
     padding-top: 100px;
+    color: white;
+    background-color: #990000;
+    width: 227px;
+    height: 61px;
+    padding: 14px 20px;
+    font: Medium 28px/22px BentonSans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 footer p {
