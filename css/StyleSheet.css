@@ -514,7 +514,7 @@ a {
     border: none;
 }
 
-#container5 {
+.home #container5 {
     padding-top: 150px;
     top: 3629px;
     left: 0px;
@@ -524,7 +524,7 @@ a {
     opacity: 1;
 }
 
-#container6,
+.home #container6,
 #container7 {
     padding-top: 150px;
     top: 4449px;
@@ -535,35 +535,35 @@ a {
     opacity: 1;
 }
 
-#container6 img {
+.home #container6 img {
     padding-right: 10px;
 }
 
-#container6 h1,
-#container7 h1 {
+.home #container6 h1,
+.home #container7 h1 {
     width: 450px;
     padding-bottom: 30px;
 }
 
-.col table {
+.home .col table {
     clear: both;
     float: right;
     width: 59.375em;
     background-color: red;
 }
 
-#container6 .top {
+.home #container6 .top {
     height: 464px;
     vertical-align: bottom;
     padding-bottom: 8px;
 }
 
-#container6 .bottom {
+.home #container6 .bottom {
     height: 401px;
     vertical-align: top;
 }
 
-#container6 td {
+.home #container6 td {
     padding-top: 8px;
 }
 
@@ -656,6 +656,8 @@ a {
     top: 118px;
     left: 0px;
     height: 470px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .student #container1 .col {
