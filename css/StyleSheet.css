@@ -355,7 +355,7 @@ a {
 
 /* home page*/
 
-.container {
+.home .container {
     padding-left: 135px;
     padding-right: 140px;
 }
@@ -370,18 +370,32 @@ a {
     background-size: 100%;
 }
 
-#container1 .col {
+.home #container1 .col {
     top: 483px;
     width: 487px;
     height: 67px;
 }
 
-#container1 .display-1 {
+.home #container1 .display-1 {
     display: inline-block;
     padding-top: 14px;
+    text-align: left;
+    font: Bold 142px/115px Benton Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#container2 {
+.home #container1 .display-3 {
+    display: inline-block;
+    text-align: left;
+    font: Medium 56px/115px BentonSans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.home #container2 {
     padding-top: 150px;
     top: 1077px;
     left: 0px;
@@ -391,12 +405,12 @@ a {
     opacity: 1;
 }
 
-#container2 p {
+.home #container2 p {
     padding-top: 30px;
     width: 380px;
 }
 
-#container3 {
+.home #container3 {
     padding-top: 150px;
     top: 2045px;
     left: 0px;
@@ -408,24 +422,24 @@ a {
     padding-right: 409px;
 }
 
-#container3 th,
+.home #container3 th,
 #container3 td {
     width: 181px;
     padding-right: 185px;
     text-align: center;
 }
 
-#container3 th:last-child,
+.home #container3 th:last-child,
 #container3 td:last-child {
     padding-right: 0px;
 }
 
-#container3 h2 {
+.home #container3 h2 {
     padding-bottom: 103px;
     text-align: center;
 }
 
-#container3 th {
+.home #container3 th {
     font: Bold 60px/24px BentonSans;
     letter-spacing: 0;
     color: #990000;
@@ -433,7 +447,7 @@ a {
     padding-bottom: 25px;
 }
 
-#container3 td {
+.home #container3 td {
     text-align: center;
     font: Regular 24px/36px BentonSans;
     letter-spacing: 0;
@@ -441,12 +455,12 @@ a {
     opacity: 1;
 }
 
-#container3 table {
+.home #container3 table {
     margin-left: auto;
     margin-right: auto;
 }
 
-#container4 {
+.home #container4 {
     padding-top: 9.375em;
     top: 165.1875em;
     left: 0;
@@ -455,29 +469,29 @@ a {
     opacity: 1;
 }
 
-table {
+.home table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
 }
 
-#container4 div:nth-child(2),
+.home #container4 div:nth-child(2),
 #container5 div:nth-child(5) {
     width: 24.875em;
     padding-left: 6.25em;
 }
 
-#container4 div:nth-child(2) p,
+.home #container4 div:nth-child(2) p,
 #container5 div:nth-child(5) p {
     padding-top: 30px;
 }
 
-#container5 img {
+.home #container5 img {
     width: 200px;
     padding-right: 25px;
 }
 
-#container5 div:nth-child(5) p {
+.home #container5 div:nth-child(5) p {
     padding-bottom: 40px;
 }
 
@@ -497,9 +511,10 @@ table {
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
+    border: none;
 }
 
-#container5 {
+.home #container5 {
     padding-top: 150px;
     top: 3629px;
     left: 0px;
@@ -509,7 +524,7 @@ table {
     opacity: 1;
 }
 
-#container6,
+.home #container6,
 #container7 {
     padding-top: 150px;
     top: 4449px;
@@ -520,35 +535,35 @@ table {
     opacity: 1;
 }
 
-#container6 img {
+.home #container6 img {
     padding-right: 10px;
 }
 
-#container6 h1,
-#container7 h1 {
+.home #container6 h1,
+.home #container7 h1 {
     width: 450px;
     padding-bottom: 30px;
 }
 
-.col table {
+.home .col table {
     clear: both;
     float: right;
     width: 59.375em;
     background-color: red;
 }
 
-#container6 .top {
+.home #container6 .top {
     height: 464px;
     vertical-align: bottom;
     padding-bottom: 8px;
 }
 
-#container6 .bottom {
+.home #container6 .bottom {
     height: 401px;
     vertical-align: top;
 }
 
-#container6 td {
+.home #container6 td {
     padding-top: 8px;
 }
 
@@ -643,6 +658,8 @@ table {
     top: 118px;
     left: 0px;
     height: 470px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .student #container1 .col {
@@ -783,8 +800,6 @@ img .zoom {
     top: 118px;
     left: 0px;
     height: 600px;
-    background-image: url("../asset/img/16x9\ Large.png");
-    background-repeat: no-repeat;
 }
 
 .curriculum .container1 .col {
@@ -798,7 +813,7 @@ img .zoom {
     text-align: left;
     font: Medium 42px/115px BentonSans;
     letter-spacing: 0;
-    color: #FFFFFF;
+    color: #191919;
     opacity: 1;
 }
 
@@ -806,7 +821,7 @@ img .zoom {
     text-align: left;
     font: Bold 85px/115px Benton Sans;
     letter-spacing: 0;
-    color: #FFFFFF;
+    color: #191919;
     opacity: 1;
 }
 
@@ -822,6 +837,14 @@ img .zoom {
     font: Bold 28px/30px BentonSans;
     letter-spacing: 0;
     color: #000000;
+    opacity: 1;
+}
+
+.curriculum .container2 h4 {
+    text-align: left;
+    font: Regular 28px/34px BentonSans;
+    letter-spacing: 0;
+    color: #545454;
     opacity: 1;
 }
 
@@ -1083,6 +1106,15 @@ footer .white {
 
 footer button {
     padding-top: 100px;
+    background: #EDEBEB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    width: 227px;
+    height: 61px;
+    padding: 14px 20px;
+    font: Medium 28px/22px BentonSans;
+    letter-spacing: 0;
+    opacity: 1;
 }
 
 footer p {
