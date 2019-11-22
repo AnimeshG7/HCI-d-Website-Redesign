@@ -40,6 +40,9 @@ a:hover {
 }
 
 
+/* Page Headers */
+
+
 /* img {} */
 
 
@@ -405,7 +408,6 @@ a {
     opacity: 1;
 }
 
-
 .home #container2 p {
     padding-top: 30px;
     width: 380px;
@@ -573,9 +575,11 @@ a {
     vertical-align: text-bottom;
     object-fit: cover;
 }
-#StudentWork1{
+
+#StudentWork1 {
     position: top left;
 }
+
 #StudentWork3,
 #StudentWork4 {
     vertical-align: text-top;
@@ -797,20 +801,20 @@ img .zoom {
 
 /* Curriculum Page CSS */
 
-.curriculum .container1 {
+.curriculum #container1 {
     top: 118px;
     left: 0px;
     height: 600px;
 }
 
-.curriculum .container1 .col {
+.curriculum #container1 .col {
     top: 248px;
     left: 140px;
     width: 487px;
     height: 67px;
 }
 
-.curriculum .container1 .display-3 {
+.curriculum #container1 .display-3 {
     text-align: left;
     font: Medium 42px/115px BentonSans;
     letter-spacing: 0;
@@ -818,7 +822,7 @@ img .zoom {
     opacity: 1;
 }
 
-.curriculum .container1 .display-1 {
+.curriculum #container1 .display-1 {
     text-align: left;
     font: Bold 85px/115px Benton Sans;
     letter-spacing: 0;
@@ -826,13 +830,13 @@ img .zoom {
     opacity: 1;
 }
 
-.curriculum .container2 {
+.curriculum #container2 {
     padding-left: 270px;
     padding-right: 554px;
     padding-bottom: 250px;
 }
 
-.curriculum .container2 h2 {
+.curriculum #container2 h2 {
     padding-top: 150px;
     text-align: left;
     font: Bold 28px/30px BentonSans;
@@ -841,7 +845,7 @@ img .zoom {
     opacity: 1;
 }
 
-.curriculum .container2 h4 {
+.curriculum #container2 h4 {
     text-align: left;
     font: Regular 28px/34px BentonSans;
     letter-spacing: 0;
@@ -858,7 +862,7 @@ img .zoom {
     opacity: 1;
 }
 
-.curriculum .container2 .dot {
+.curriculum #container2 .dot {
     height: 40px;
     width: 40px;
     background: #990000 0% 0% no-repeat padding-box;
