@@ -572,7 +572,9 @@ a {
     vertical-align: text-bottom;
     object-fit: cover;
 }
-
+#StudentWork1{
+    position: top left;
+}
 #StudentWork3,
 #StudentWork4 {
     vertical-align: text-top;
