@@ -371,7 +371,6 @@ a {
 }
 
 .home #container1 .col {
-    top: 483px;
     width: 487px;
     height: 67px;
 }
@@ -393,6 +392,7 @@ a {
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
+    padding-top: 170px;
 }
 
 .home #container2 {
